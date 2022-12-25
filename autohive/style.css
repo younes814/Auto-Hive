@@ -1,0 +1,170 @@
+:root {
+    --gray-color:#808080;
+}
+#bg-red {
+    background-color: red;
+}
+#text-red {
+    color: red;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenue, .part2, .part3 , .part6  {
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 10px 5px;
+}
+/*-----------------------------------------------------TOP----------------------------------------------------*/
+
+.top {
+    color: var(--gray-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+.top div span {
+    margin: 0 10px;
+}
+/*-------------------------------------------HEADER-----------------------------------------------------------*/
+.header {
+    background-color: #000;
+    height: 90px;
+}
+.call , .horaire {
+    background-color: var(--gray-color);
+    border-radius: 50%;
+}
+.call  i, .horaire i {
+    color: #fff;
+    padding: 8px;
+}
+
+/*-----------------PART 1 ---------------*/
+
+.buttons1 :first-child,.buttons1:last-child {
+    border-radius: 0;
+}
+.buttons1 button  {
+    border-bottom: 1px solid var(--gray-color);
+    margin: 0 2px 0 0 ;
+}
+.buttons2 {
+    margin-left: 20px;
+}
+.buttons2 button {
+    font-weight: 600;
+}
+.text-img span {
+    color: aliceblue;
+    font-weight: 500;
+    margin: 20px 0;
+}
+.text-img button {
+    margin: 30px 0;
+}
+.text-img h4 {
+    margin: 5px 0;
+}
+/*------------------------------------part 2-----------------------------*/
+
+.part2 div button {
+    margin:0 10px;
+    padding:15px 50px;
+}
+/*------------------------------------part 3-----------------------------*/
+.price {
+    align-items: center;
+}
+.price span:first-child {
+    color: var(--gray-color);
+    text-decoration: line-through;
+    font-size: 13px;
+    margin-right: 16px;
+}
+.price span:last-child {
+    color: red;
+    font-weight: 700;
+    font-family: cursive;
+}
+.products1 div.card {
+    margin:0 5px ;
+}
+.products1 div.card img {
+    object-fit: cover;
+}
+/*-------------------------------------PART 7-------------------------*/
+.black {
+    height: 260px;
+    width: 50%;
+    background-image:linear-gradient(to right, rgb(68, 66, 66) , #000);
+}
+.red {
+    height: 260px;
+    width: 50%;
+    background-image: linear-gradient(to right,red,rgb(188, 53, 53));
+}
+/*---------------------------------------------PART 9----------------------------*/
+.clean-images {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.clean-images div.img1 ,.img2 ,.img3 {
+    position: relative;
+    width: 95%;
+    height: 220px;
+}
+.clean-images div img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.img-text {
+    background-color: #fff;
+    bottom: -40px;
+    padding: 20px 20px 0 10px;
+    box-shadow: 8px 8px 14px 38px rgba(0,0,0,0.1);
+}
+.img-text h6{
+    font-weight: 700;
+}
+/*-----------------------FOOTER---------------------------*/
+footer {
+    background-image: linear-gradient(to bottom,#000,rgb(55, 54, 54));
+    color: #fff;
+    
+}
+footer div {
+    margin: 90px 0px 0 40px;
+}
+footer div span {
+    color: var(--gray-color);
+    margin: 8px 0;
+}
+footer div h6 {
+    font-family: cursive;
+    font-weight: 800;
+}
+.photos img {
+    width: 100px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
